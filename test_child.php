@@ -7,7 +7,7 @@ class Test{
 	use CRUD;
 }
 if($argv[1]==4){
-	$dd=Fcache::del_all();
+	$dd=Cache::del_all();
 	for($id=0;$id<100;$id++){
 		Test::delete(compact(['id']));
 	}

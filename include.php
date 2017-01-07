@@ -11,4 +11,4 @@ include_once __DIR__."/github/MysqlCompact/CRUD.php";
 
 
 DB::query("SET NAMES utf8");
-Mcache::$prefix="cfd_chichi_tag";
+Mcache::$prefix="cfd_chichi_test";
